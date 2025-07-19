@@ -26,8 +26,9 @@ const Hero = () => {
       <img
         src={devGirl}
         alt="female developer"
-        className="absolute bottom-0 md:bottom-10 lg:bottom-20 left-1/2 transform -translate-x-1/2 w-[60%] sm:w-[50%] md:w-[40%] lg:w-[35%] xl:w-[30%] h-auto object-contain pointer-events-none drop-shadow-2xl rounded-xl"
+        className="absolute bottom-10 sm:bottom-0 md:bottom-[-20px] lg:bottom-[-40px] left-1/2 transform -translate-x-1/2 w-[250px] sm:w-[300px] md:w-[380px] lg:w-[420px] h-auto object-contain pointer-events-none drop-shadow-2xl rounded-xl"
       />
+
 
 
 
