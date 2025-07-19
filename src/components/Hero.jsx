@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { hero } from "../constants";
-import devGirl from "../assets/dev_girl.png"; 
+import devGirl from "../assets/dev_girl.png";
 
 const Hero = () => {
   return (
@@ -26,10 +26,11 @@ const Hero = () => {
       <img
         src={devGirl}
         alt="female developer"
-        className="absolute bottom-20 left-1/2 transform -translate-x-1/2 w-[420px] h-auto object-contain pointer-events-none drop-shadow-2xl rounded-xl"
+        className="absolute bottom-0 md:bottom-10 lg:bottom-20 left-1/2 transform -translate-x-1/2 w-[60%] sm:w-[50%] md:w-[40%] lg:w-[35%] xl:w-[30%] h-auto object-contain pointer-events-none drop-shadow-2xl rounded-xl"
       />
 
-      
+
+
     </section>
   );
 };
