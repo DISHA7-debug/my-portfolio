@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -8,25 +8,19 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
+  <Tilt
+    glareEnable={true}
+    glareMaxOpacity={0.45}
+    scale={1.02}
+    transitionSpeed={400}
+    className="xs:w-[250px] w-full"
+  >
     <motion.div
       variants={fadeIn("right", "spring", index * 0.4, 0.75)}
       className="w-full blue-pink-gradient p-[1px] rounded-[20px] shadow-md hover:shadow-xl transition-all duration-300"
     >
-      <div
-        options={{
-          max: 40,
-          scale: 1,
-          speed: 400,
-        }}
-        className="bg-tertiary rounded-[20px] py-6 px-10 min-h-[260px] flex flex-col justify-center items-center"
-      >
-        <img
-          src={icon}
-          alt={title}
-          className="w-14 h-14 object-contain mb-4"
-        />
-
+      <div className="bg-tertiary rounded-[20px] py-6 px-10 min-h-[260px] flex flex-col justify-center items-center">
+        <img src={icon} alt={title} className="w-14 h-14 object-contain mb-4" />
         <h3 className="text-white text-[19px] font-semibold text-center">
           {title}
         </h3>
