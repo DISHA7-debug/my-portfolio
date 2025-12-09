@@ -4,7 +4,6 @@ A modern **single-page developer portfolio** built with **React + Vite**, featur
 
 🔗 **Live Demo**  
 - Vercel: https://my-portfolio-nu-two-72.vercel.app  
-- GitHub Pages: https://DISHA7-debug.github.io/my-portfolio  
 
 ---
 
