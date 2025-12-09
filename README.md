@@ -1,93 +1,78 @@
-🌐 3D Developer Portfolio
+# 🌌 3D Developer Portfolio
 
-A single-page developer portfolio built using React + Vite, featuring a scroll-triggered rotating 3D model on the home section.
-The project focuses on clean UI, smooth animations, and modern frontend practices, created to showcase skills and projects while applying for internships.
+A modern **single-page developer portfolio** built with **React + Vite**, featuring a **scroll-activated rotating 3D model**, smooth animations, and a clean UI — designed specifically for **internship applications**.
 
-🔗 Live Demo
+🔗 **Live Demo**  
+- Vercel: https://my-portfolio-nu-two-72.vercel.app  
+- GitHub Pages: https://DISHA7-debug.github.io/my-portfolio  
 
-Vercel: https://my-portfolio-nu-two-72.vercel.app
+---
 
-GitHub Pages: https://DISHA7-debug.github.io/my-portfolio
+## ✨ Features
 
-✨ Features
+- 🧊 **3D Hero Section**  
+  Large rotating 3D figure appears while scrolling on the home section  
+  Built using **Three.js + React Three Fiber**
 
-✅ Single Page Application
+- 📄 **Single Page Layout**  
+  Smooth section-based navigation without page reloads
 
-Smooth scroll-based navigation between sections
+- 🎨 **UI-Focused Project**  
+  Pure frontend design & interaction project (no backend)
 
-🧊 3D Interactive Visual
+- 🎬 **Smooth Animations**  
+  Page transitions and scroll animations using **Framer Motion**
 
-A large 3D figure that appears and rotates while scrolling on the home page
+- 🪄 **3D Tilt Effects**  
+  Hover-based tilt effects on cards using `react-parallax-tilt`
 
-Built using Three.js with React Three Fiber
+- 📈 **Experience Timeline**  
+  Clean vertical timeline using `react-vertical-timeline-component`
 
-🎬 Smooth Animations
+- 📱 **Fully Responsive**  
+  Works seamlessly on desktop, tablet, and mobile devices
 
-Section transitions and entry animations using Framer Motion
+---
 
-🪄 Modern UI Effects
+## 🛠 Tech Stack
 
-Subtle 3D tilt effects on cards using react-parallax-tilt
+### Core
+- React 18
+- Vite
+- Tailwind CSS
 
-📈 Experience Timeline
+### 3D & Animations
+- three
+- @react-three/fiber
+- @react-three/drei
+- maath
+- framer-motion
+- react-parallax-tilt
 
-Timeline-style layout for experience and achievements
+### UI Components
+- react-vertical-timeline-component
 
-📱 Responsive Design
+### Deployment
+- GitHub Pages
+- Vercel
 
-Optimized for desktop, tablet, and mobile devices
+---
 
-⚡ Fast & Lightweight
+## 📁 Project Structure
 
-Powered by Vite for fast development and optimized builds
-
-🛠 Tech Stack
-Frontend
-
-  React 18
-
-  Vite
-
-  Tailwind CSS
-
-3D & Animations
-
-  three
-
-  @react-three/fiber
-
-  @react-three/drei
-
-  maath
-
-  framer-motion
-
-  react-parallax-tilt
-
-UI Components
-
-  react-vertical-timeline-component
-
-Deployment
-
-  GitHub Pages
-
-  Vercel
-
-📁 Project Structure
-
+```bash
 my-portfolio/
 ├── public/
 ├── src/
-│   ├── assets/              # Images, icons, and 3D assets
+│   ├── assets/                 # Images, icons, 3D assets
 │   ├── components/
 │   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx         # Home section with rotating 3D model
+│   │   ├── Hero.jsx            # Home section with rotating 3D model
 │   │   ├── About.jsx
 │   │   ├── Tech.jsx
 │   │   ├── Experience.jsx
 │   │   ├── Works.jsx
-│   │   ├── Contact.jsx      # UI-only contact section
+│   │   ├── Contact.jsx         # UI-only contact section
 │   │   └── Footer.jsx
 │   ├── App.jsx
 │   └── main.jsx
@@ -97,63 +82,71 @@ my-portfolio/
 ├── vite.config.js
 ├── package.json
 └── README.md
+```
 
+---
 
+## 🚀 Getting Started
 
+### 1️⃣ Clone the repository
 
-🚀 Getting Started
-1️⃣ Prerequisites
-
-  Node.js (v18+ recommended)
-
-  npm
-
-2️⃣ Clone the Repository
+```bash
 git clone https://github.com/DISHA7-debug/my-portfolio.git
 cd my-portfolio
+```
 
-3️⃣ Install Dependencies
+### 2️⃣ Install dependencies
+
+```bash
 npm install
+```
 
-4️⃣ Run Locally
+### 3️⃣ Start development server
+
+```bash
 npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🌍 Deployment
+
+### GitHub Pages
+
+```bash
+npm run deploy
+```
+
+This command:
+- Builds the project
+- Pushes the `dist` folder to `gh-pages` branch
+- Deploys at GitHub Pages URL
+
+---
+
+## 🎯 Project Purpose
+
+This portfolio is built to:
+- Showcase **frontend & React skills**
+- Demonstrate **Three.js integration in React**
+- Present a visually engaging UI for **internship recruiters**
+
+---
+
+## 📄 License
+
+Simple personal project.  
+Feel free to explore and learn from the code.
 
 
-Visit http://localhost:5173 in your browser.
-
-5️⃣ Build for Production
-  npm run build
-
-🌍 Deployment
-GitHub Pages
-  npm run deploy
-
-
-Builds the project and publishes it using the gh-pages branch.
-
-Vercel
-
-1.Import the repository into Vercel
-
-2.Select Vite as the framework
-
-3.Build Command: npm run build
-
-4.Output Directory: dist
-
-🎯 Project Goal
-
-This project was created as a personal portfolio for internship applications, focusing on:
-
-Demonstrating frontend fundamentals
-
-Showcasing modern UI/UX practices
-
-Using 3D visuals with React and Three.js
-
-Building production-ready, deployable projects
-
-📄 License
-
-This project is a simple personal portfolio.
-You may explore and learn from the code, but please avoid using it directly as your own portfolio.
+  
