@@ -44,37 +44,38 @@ Powered by Vite for fast development and optimized builds
 🛠 Tech Stack
 Frontend
 
-React 18
+  React 18
 
-Vite
+  Vite
 
-Tailwind CSS
+  Tailwind CSS
 
 3D & Animations
 
-three
+  three
 
-@react-three/fiber
+  @react-three/fiber
 
-@react-three/drei
+  @react-three/drei
 
-maath
+  maath
 
-framer-motion
+  framer-motion
 
-react-parallax-tilt
+  react-parallax-tilt
 
 UI Components
 
-react-vertical-timeline-component
+  react-vertical-timeline-component
 
 Deployment
 
-GitHub Pages
+  GitHub Pages
 
-Vercel
+  Vercel
 
 📁 Project Structure
+
 my-portfolio/
 ├── public/
 ├── src/
@@ -97,12 +98,14 @@ my-portfolio/
 ├── package.json
 └── README.md
 
+
+
 🚀 Getting Started
 1️⃣ Prerequisites
 
-Node.js (v18+ recommended)
+  Node.js (v18+ recommended)
 
-npm
+  npm
 
 2️⃣ Clone the Repository
 git clone https://github.com/DISHA7-debug/my-portfolio.git
@@ -118,24 +121,24 @@ npm run dev
 Visit http://localhost:5173 in your browser.
 
 5️⃣ Build for Production
-npm run build
+  npm run build
 
 🌍 Deployment
 GitHub Pages
-npm run deploy
+  npm run deploy
 
 
 Builds the project and publishes it using the gh-pages branch.
 
 Vercel
 
-Import the repository into Vercel
+1.Import the repository into Vercel
 
-Select Vite as the framework
+2.Select Vite as the framework
 
-Build Command: npm run build
+3.Build Command: npm run build
 
-Output Directory: dist
+4.Output Directory: dist
 
 🎯 Project Goal
 
