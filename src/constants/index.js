@@ -15,6 +15,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  project1,
+  project2,
 } from "../assets";
 
 export const navLinks = [
@@ -112,6 +114,16 @@ const experiences = [
     ],
   },
   {
+    title: "Web Developer Intern",
+    company_name: "Codec Technology",
+    icon: web,
+    iconBg: "#E6DEDD",
+    date: "Dec 2025 – Jan 2026",
+    points: [
+      "Worked as a Web Developer Intern focusing on building modern, responsive, and scalable web applications while collaborating on real-world development projects.",
+    ],
+  },
+  {
     title: "Junior Web Team Member",
     company_name: "IEEE MUJ",
     icon: mobile,
@@ -137,40 +149,46 @@ const experiences = [
 
 const projects = [
   {
-    name: "Job IT",
+    name: "Version Control System",
     description:
-      "Web app that allows users to search for jobs, view salary ranges, and locate available positions based on location.",
+      "A full-stack version control system that enables repository management, issue tracking, and structured code history handling using modern web technologies.",
     tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "tailwind", color: "green-text-gradient" },
-      { name: "nodejs", color: "pink-text-gradient" },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: project1,
+    source_code_link: "https://github.com/DISHA7-debug/VCS-Frontend",
   },
   {
-    name: "Trip Guide",
+    name: "Lazarev",
     description:
-      "A travel booking platform that allows users to browse and book trips, with recommendations and custom itineraries.",
+      "A visually immersive frontend project inspired by a digital product design agency, built using modern UI techniques and GSAP-based animations.",
     tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "typescript", color: "green-text-gradient" },
-      { name: "tailwind", color: "pink-text-gradient" },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-   {
-    name: "Car Rent",
-    description:
-      "Car rental web application that allows users to book, rent, and manage car rentals with real-time availability and filters.",
-    tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "mongodb", color: "green-text-gradient" },
-      { name: "tailwind", color: "pink-text-gradient" },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: project2,
+    source_code_link: "https://github.com/DISHA7-debug/LAZAREV",
   },
 ];
 

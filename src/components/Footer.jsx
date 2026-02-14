@@ -6,11 +6,14 @@ const Footer = () => {
           © {new Date().getFullYear()} Disha Chopra. All rights reserved.
         </p>
         <div className="flex gap-4">
-          <a href="https://github.com/DISHA07-debug" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400 transition-colors duration-300">
+          <a href="https://github.com/DISHA7-debug" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400 transition-colors duration-300">
             GitHub
           </a>
           <a href="https://www.linkedin.com/in/disha-chopra-116244339" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400 transition-colors duration-300">
             LinkedIn
+          </a>
+          <a href="mailto:dishaworks07@gmail.com" className="hover:text-pink-400 transition-colors duration-300">
+            Email
           </a>
         </div>
       </div>

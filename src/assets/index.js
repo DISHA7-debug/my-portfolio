@@ -26,6 +26,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import project1 from "./project1.svg";
+import project2 from "./project2.svg";
+
 export {
   logo,
   backend,
@@ -48,11 +51,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  
-  
-  
-  
+
+
+
+
   carrent,
   jobit,
   tripguide,
+  project1,
+  project2,
 };
