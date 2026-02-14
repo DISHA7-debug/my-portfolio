@@ -26,8 +26,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import project1 from "./project1.svg";
-import project2 from "./project2.svg";
+import project1 from "./project1.png";
+import project2 from "./project2.png";
 
 export {
   logo,
